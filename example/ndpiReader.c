@@ -54,6 +54,9 @@
 #include <sys/mman.h>
 #include <libgen.h>
 
+// TODO figure out why it's not defined
+#define HAVE_JSON_C
+
 #ifdef HAVE_JSON_C
 #include <json.h>
 #endif
